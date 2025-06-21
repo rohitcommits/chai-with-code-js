@@ -24,33 +24,60 @@
 // primitive data type
 //7 type : string ,number, boolearn,null,undefined,symbol,bigint;
 
-const score =100
-const scorevalue = 100.3
+// const score =100
+// const scorevalue = 100.3
 
-const isloggedIn = false;
-const outsidetemp =  null
-let userEmail;
-const id = Symbol('123')
-const anotherId = Symbol('123')
-console.log(id=== anotherId);
-console.log(id);
-console.log(  otherId);
+// const isloggedIn = false;
+// const outsidetemp =  null
+// let userEmail;
+// const id = Symbol('123')
+// const anotherId = Symbol('123')
+// console.log(id=== anotherId);
+// console.log(id);
+// console.log(  otherId);
  
-const bignumber= 23434543654865656n
+// const bignumber= 23434543654865656n
 
 
 
-// reference type (non primitive);
+// // reference type (non primitive);
 
-//array,objects, functions ;
-const heros =0["shaktiman", "naagraj","doga"];
+// //array,objects, functions ;
+// const heros =0["shaktiman", "naagraj","doga"];
 
- let myobj=   {
-name: "rohit",
-age: 22,
+//  let myobj=   {
+// name: "rohit",
+// age: 22,
 
+// }
+// const myfunction = function (){
+
+//     console.log("hello world");
+// }
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// stack (primitive), heap(non-primitive)
+
+let myyoutubename = "hiteshcoudharydotcom"
+let anothername  = (myyoutubename);
+console.log(anothername);
+console.log(myyoutubename);
+
+let user = {
+    email: "user@google.com",
+    upi:" user@ybl"
 }
-const myfunction = function (){
+   
+ 
 
-    console.log("hello world");
-}
+
+
+
+
+
+
+
+
+
