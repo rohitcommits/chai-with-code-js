@@ -1,0 +1,1 @@
+ // lastlogindays : ["mon","sat"]
